@@ -1,0 +1,34 @@
+.loginPage h1::first-letter,.loginPage h2::first-letter{
+  text-transform: uppercase;
+}
+.loginPage form{
+  padding: 2vh 0;
+}
+
+.loginPage form span,.loginPage form button{
+  margin-left: 1vw;
+}
+
+.loginPage form button{
+  padding: .35vh .5vw;
+  font-weight: 700;
+  background-color: beige;
+  border: .1vw solid #000;
+  cursor: pointer;
+  transition: .2s linear;
+}
+
+.loginPage form button:hover{
+  color: #fff;
+  background-color: #000;
+  border-color: beige;
+}
+
+.loginPage h2{
+  margin-top: 1vh;
+  font-size: 1.2rem;
+}
+
+.loginPage h2.errorMessage{
+  color: #f00;
+}

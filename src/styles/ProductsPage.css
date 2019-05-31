@@ -1,0 +1,29 @@
+.productsPage h1::first-letter{
+  text-transform: uppercase;
+}
+.productsPage ul{
+  margin-left:2vw;
+  font-size: 1.4rem;
+}
+
+.productsPage li{
+  margin-top: 1vh;
+  line-height: 2rem;
+}
+
+.productsPage li:hover{
+  list-style-type: circle;
+}
+
+.productsPage a{
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  transition: .2s linear;
+}
+
+.productsPage a:hover{
+  padding-left: .5vw;
+  color: #666;
+  letter-spacing: .15vw;
+}

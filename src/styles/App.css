@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div#root{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#root>header{
+  position: relative;
+  flex-basis: 30%;
+  overflow: hidden;
+}
+#root>header>img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+#root>main{
+  display: flex;
+  flex-grow: 1;
+}
+#root>main>aside{
+  flex-basis: 20%;
+  padding: 2vh; 
+}
+
+#root>main>div.pageContent{
+  flex-grow: 1;
+  max-width: 80%;
+  padding: 2vh; 
+}
+
+#root>footer{
+  flex-basis: 10%;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+}

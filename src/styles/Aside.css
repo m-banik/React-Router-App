@@ -1,0 +1,43 @@
+aside ul {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+aside ul li {
+  line-height: 5vh;
+}
+
+aside ul a {
+  display: block;
+  padding-left: 1vw;
+  font-size: 1.8vh;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  transition: .2s linear;
+}
+
+aside ul a:hover {
+  margin-left: 1vw;
+}
+
+aside ul a.active {
+  margin-left: 0;
+  border-left: .5vw solid yellow;
+}
+
+aside ul li:first-child a.active {
+  border-color: green;
+}
+
+aside ul li:nth-child(2) a.active {
+  border-color: #00f;
+}
+
+aside ul li:nth-of-type(3) a.active {
+  border-color: rgba(255, 0, 0, 1);
+}
+
+aside ul li:nth-of-type(4) a.active {
+  border-color: rebeccapurple;
+}

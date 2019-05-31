@@ -1,0 +1,11 @@
+.productPage h2{
+  margin: 2vh 0;
+}
+
+.productPage a{
+  transition: .2s linear;
+}
+
+.productPage a:hover{
+  letter-spacing: .1vw;
+}

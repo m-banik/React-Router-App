@@ -1,0 +1,21 @@
+.homePage>article{
+  padding: 2vh 0;
+  color: #111;
+  border-bottom: .1vw solid #ccc;
+}
+.homePage>article:first-of-type{
+  padding-top: 0;
+}
+.homePage h1{
+  font-size: 2rem;
+}
+
+.homePage h2{
+  margin: .6vh 0;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.homePage p{
+  font-size: 1rem;
+}
