@@ -4,6 +4,13 @@
 
 A sample of React Router usage and a standard web page involving login panel and side menu. The user may navigate among the subpages without reloading- the project is a Single Page Application(SPA).
 
+## Password
+
+The admin login data:
+
+- login: Admin
+- password: qwerty!
+
 ## Resources
 
 Images used in the project are the following:
