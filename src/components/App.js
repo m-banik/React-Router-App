@@ -94,7 +94,7 @@ class App extends Component {
   };
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <header>
           <Header graphics={this.graphics} />
         </header>
